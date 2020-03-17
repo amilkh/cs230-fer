@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.webcam-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.camera{
+  border-radius: 10px;
+}
+
+
+.titleDiv{
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #e3fff8;
+
+ 
+}
+
+
+.detect{
+  color:gray;
+  background-color: #b3f5e5;
+  width: 40vh;
+  max-width:510px;
+  height:50px;
+  font-size: 2vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.nostyle{
+  font-size:2vh;
+  display: inline;
+  }
+
+h1{
+  font-family: 'Noticia Text';
+  padding-top: 50px;
+}
+
+#spId{
+  margin-bottom: 50px;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 15vh;
+background-color: #71f5d5;
+color: white;
+align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
+
+
+}
+
+
+
+
+
+.camera__wrapper {
+  position: relative;
+  max-width: 680px;
+  /* margin: 1vh */
+}
+
+#cam_input
+{
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+}
+
+.camera {
+  width: 100%;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.switcher{
+  /* margin-top: 12vh; */
+  margin-left: 82vw;
+}
+
+
