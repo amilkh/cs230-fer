@@ -6,7 +6,9 @@ Facial expressions are a universal way for people to communicate. This repositor
 We demonstrate a state-of-the-art accuracy of **75.8%** on our best model, outperforming the highest reported 75.2% test accuracy in published works at the time of this writing [\[1\]](https://arxiv.org/abs/1612.02903).
 
 Additionally, we apply our FER models to the real world with an on-device, real-time mobile web app.
-![FER2013 images](images/fer2013.png)
+
+<a href="url"><img src="images/fer2013.png" height="300" ></a>
+
 
 ## Getting Started
 The included Jupyter notebooks have all pre-requisities defined internally. 
