@@ -32,7 +32,7 @@ The highest misclassifications on our model were of true sad images predicted as
 ![Confusion Matrix](images/cmat.png)
 
 ## Video
-We will embed the video here when it is ready.
+[![video](https://img.youtube.com/vi/q_cnwmAHoK0/0.jpg)](https://www.youtube.com/watch?v=q_cnwmAHoK0)
 
 ## Background
 This was our final project for [CS230 Deep Learning](https://cs230.stanford.edu/syllabus/) at Stanford.
