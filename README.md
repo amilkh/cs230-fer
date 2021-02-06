@@ -33,6 +33,7 @@ Our web app model learned to focus on the mouth and nose to make predictions for
 
 ### Confusion Matrix
 The highest misclassifications on our model were of true sad images predicted as neutral. To address this, we can further augment our web app training dataset with more properly labeled sad images.
+
 ![Confusion Matrix](images/cmat.png)
 
 ## Video
