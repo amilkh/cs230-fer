@@ -1,5 +1,12 @@
 # Facial Expression Recognition
 
+## Research Paper
+Our published paper can be found here: https://arxiv.org/abs/2004.11823
+
+## Mobile App
+Our mobile app can be accessed here: http://cs230-fer.firebaseapp.com/ <br>
+Note: you may run into permission issues with iPhones on the Safari browser
+
 ## Introduction
 Facial expressions are a universal way for people to communicate. This repository demonstrates several deep learning models for detecting emotions, including a five-layer convolutional network and transfer learning models.
 
@@ -17,14 +24,11 @@ The included Jupyter notebooks have all pre-requisities defined internally.
 2. Download datasets as described in [datasets/README.md](datasets/README.md).
 3. Run one of the Jupyter notebooks in the top-level directory
 
-## Mobile App
-The mobile app can be accessed [on Firebase](http://cs230-fer.firebaseapp.com/).
-Currently, it only runs on laptops or Android devices. We are working on the permission issues with iPhones on the Safari browser (Chrome may work).
-
 ## Intepretability
 
 ### Occlusion-based Saliency Maps
 Our web app model learned to focus on the mouth and nose to make predictions for disgust, mouth for happiness, and eyes and nose for surprise. For neutral images, it focused on all parts of the face except for the nose, which made sense given that small changes in non-nose regions tend to correspond to emotion changes.
+
 ![Occlusion-based Saliency Map](images/occlusion.png)
 
 ### Confusion Matrix
